@@ -1,0 +1,17 @@
+{
+    "name": "cristofer007/enviar-email",
+    "autoload": {
+        "psr-4": {
+            "Cristofer007\\EnviarEmail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cristofer007",
+            "email": "cristofer.aviles.v@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    }
+}
