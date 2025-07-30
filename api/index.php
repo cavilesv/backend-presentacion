@@ -8,9 +8,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 
-require __DIR__ . '/vendor/PHPMailer/PHPMailer/src/Exception.php';
-require __DIR__ . '/vendor/PHPMailer/PHPMailer/src/PHPMailer.php';
-require __DIR__ . '/vendor/PHPMailer/PHPMailer/src/SMTP.php';
+require __DIR__ . '/vendor/phpmailer/phpmailer/src/Exception.php';
+require __DIR__ . '/vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require __DIR__ . '/vendor/phpmailer/phpmailer/src/SMTP.php';
 
 $mail = new PHPMailer(true);
 
